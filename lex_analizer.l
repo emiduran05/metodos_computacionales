@@ -13,7 +13,7 @@
 [*]     {printf("times ");}
 [p]     {printf("print ");}
 [0-9]+  {printf("inum ");}
-[0-9]+[.][0-9] {printf("floatnum ");}
+[0-9]+[.][0-9]+ {printf("floatnum ");}
 [a-zA-Z]+       {printf("id ");}
 %%
 
